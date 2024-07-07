@@ -77,20 +77,13 @@ ON a.yr = b.yr</br>
 </br>
 <img width="1000" alt="New Columns" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/f6ce7a17-86bf-4cda-aea8-cb8d31e812c2">
 <br />
-Results continued<br />
-<img width="1501" alt="More results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/f018932c-f3b1-4d54-8b89-1aa2a2ae2cc4">
-<br />
-<strong>Evidence of no credentials used during the scan:</strong> <br />
-<img width="1301" alt="Evidence of no credentials scan" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/aff974e6-5400-499a-9499-5a4bb4239ea3">
-<br />
-<br />
 
-<h2>Step 2: Credentialed Scan:</h2>
-Conduct a Windows Credentialed scan by inputing username and password as shown below. 
-<img width="1504" alt="Credentialed Windows Scan info" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/de1df6f5-9190-470e-aad1-82f7c85f5e65">
+
+<h2>Step 2: Connect PowerBI to Data:</h2>
+Import the SQL Data by clicking on "Get Data" 
+<img width="500" alt="PowerBI Connect" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/57fd12b3-fa89-45c8-9d77-5c9b78e7a837" style="display: block; margin-left: 0;">
 Results: <br />
-<img width="1507" alt="Scan 2 results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/e314bda9-05cf-4715-b547-48842a4007ac">
-More Results: <br />
+<br />
 <img width="1300" alt="Scan 2 results more " src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/1367535a-bf79-458f-9f3b-3a7379289149">
 <br />
 <br />
