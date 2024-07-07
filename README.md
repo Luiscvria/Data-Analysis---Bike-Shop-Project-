@@ -2,11 +2,11 @@
 
 <h2>Description</h2>
 In this project, I took on the role of a data analyst to assist Toman Bike Shop in making an informed decision about potentially increasing their prices next year. The primary objective was to analyze current trends and determine if a price increase would be feasible without negatively impacting profitability and the ongoing trend of increasing sales.
-
+<br />
+<br />
 This project is designed as an entry-level data analyst task, showcasing a complete end-to-end data analysis process. The analysis includes data cleaning, exploratory data analysis, trend analysis, and providing actionable insights based on the findings.
 
 All relevant files and data are provided within this repository.
-<br />
 <br />
 
 <b>Estimated time to completion:</b> 1-2 Hours  
@@ -28,14 +28,14 @@ All relevant files and data are provided within this repository.
 <p align="left">
 
 <h2>Set-up Instructions</h2>  
-1: Install VMWare <br/>
-2: Download a Windows 10/11 ISO file<br/>
-3: Download Nessus<br/>
-4: Install Windows 10/11 onto VMWare and create a username and password for an admin account 
+1: Install PowerBI <br/>
+2: Download Microsoft SQL Server <br/>
+3: Connect SSMS to Sql Server<br/>
+4: Connect Excel data files to SSMS 
 
 <h2>Initial Steps</h2> 
 <strong>Step 1: Turn off Windows Defender on Win 10/11 VM</strong> <br/>
-<img width="1786" alt="Windows Firewall change settings" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/fbc6540f-2979-46fa-b1a2-613053b415c6">
+<img width="500" alt="SSMS server connect" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/e567f740-4451-43af-9ef9-3d9293e710a4">
 
   - <b>Make sure you turn off domain profile, private profile, public profile</b> 
 <br />
