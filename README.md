@@ -75,73 +75,34 @@ FROM master_table a</br>
 LEFT JOIN cost_table b</br>
 ON a.yr = b.yr</br>
 </br>
-<img width="1000" alt="New Columns" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/f6ce7a17-86bf-4cda-aea8-cb8d31e812c2">
+<img width="700" alt="New Columns" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/f6ce7a17-86bf-4cda-aea8-cb8d31e812c2">
 <br />
-
 
 <h2>Step 2: Connect PowerBI to Data:</h2>
-Import the SQL Data by clicking on "Get Data" 
-<img width="500" alt="PowerBI Connect" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/57fd12b3-fa89-45c8-9d77-5c9b78e7a837" style="display: block; margin-left: 0;">
-Results: <br />
-<br />
-<img width="1300" alt="Scan 2 results more " src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/1367535a-bf79-458f-9f3b-3a7379289149">
-<br />
+Imported the SQL Data <br />
+<img width="500" alt="PowerBI Connect" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/57fd12b3-fa89-45c8-9d77-5c9b78e7a837"><br />
 <br />
 
-<h2>Step 3: Credentialed Scan with added vulnerabilities:</h2>
+<h2>Step 3: Create a Dashboard + results</h2>
+Results for 2021 <br />
+<br />
+<img width="1000" alt="final dashboard results 2021" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/0f45bb69-ee52-44a0-9453-808e695ab609">
+<br />
+Results for 2022 <br />
+<br />
+<img width="1000" alt="final dashboard results 2022" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/f2ce3445-3b21-493a-ae3a-cc4daeac4a7e">
+<br />
+<br />
 
-<h2>Introduce further vulnerabilities</h2>  <br/>
-<Strong>Step 1: Enable remote registry withing Services.Msc</Strong> <br/>
-<img width="1348" alt="Enable remote registry in services msc" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/804c916c-d359-41f6-a8d5-0de80c75a1e3">
-
-<Strong>Step 2: Turn off user account control</Strong> <br/>
-<img width="697" alt="Turn off user account control" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/83a92b23-15ad-490f-a35c-01d1b75c4792">
-
-<Strong>Step 3: Turn on file sharing</Strong> <br/>
-<img width="475" alt="Turn on file   printer sharing " src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/35073f66-72c5-4d1c-8e1a-e3fcefe70d9c">
-
-<strong>Step 4: Download outdated version of Mozilla Firefox web browser onto Windows 11 VM </strong> <br/>
+<strong>Step 4: Analysis Recommendations: </strong> <br/>
 <img width="1603" alt="Download screen for old Mozilla browser" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/56b4e151-b990-450d-9ef4-8d4a32a57adc">
 Old Mozilla Browser in Action:<br />
 <img width="1594" alt="Firefox download complete " src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/4d6d2c3b-47d5-439c-87d3-ec523c6ee33c">
-<h2>Results of Scan 3:</h2> <br/>
-<strong>Main results Page:</strong><br />
-<img width="1312" alt="Scan 3 results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/56956501-9e34-4fbf-8252-136e2b8e8581">
-More Results:<br />
-<img width="1286" alt="Scan 3 results - More" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/abca532a-13e3-410f-982e-8aad03f5f671">
-Nessus suggested remediations tab: <br />
-<img width="1254" alt="remediation" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/4c5ccbda-2465-40e7-9557-47812b219b8c">
 
 <br />
 <br />
 <br />
 <br />
-<h2>Step 4: Remediation:</h2>
-<Strong>Step 1: Uninstall Firefox from Windows 11 VM</Strong> <br/>
-<img width="1605" alt="Uninstall Firefox" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/22b1d05f-f3ff-47ac-a314-228fb438de58">
-<br />
-<Strong>Step 2: Update Windows OS to latest version</Strong> <br/>
-<img width="493" alt="Windows update complete" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/70a513e1-eb7d-4c49-9820-bb57632495b6">
-<br />
-<Strong>Step 3: Run a final scan after remediation. Results below</Strong> <br/>
-<img width="1308" alt="final scan results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/ce4207eb-1220-47c9-9792-c5bdcce69cef">
-<br />
-More Results
-<img width="1299" alt="Final scan results more" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/1ce45627-5646-4489-8a89-6f5bad7dc5fb">
-<br />
-<h2>Final Results</h2>
-<strong>Scan 1: Non-credentialed</strong> 
-<br />
-<img width="328" alt="Scan 1 results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/3b2f8782-a99c-4b38-beae-acb101dc9ad4"> <br />
-<strong>Scan 2: Credentialed</strong>
-<br />
-<img width="331" alt="Scan 2 results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/44942d71-532d-4d99-8dea-c1bfd683478a"> <br />
-<strong>Scan 3: Credentialed Scan with added Vulnerabilities</strong>
-<br />
-<img width="331" alt="Scan 3 results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/1eb72e6b-fb7b-4f9a-aa54-ebe0b1334768"> <br />
-<strong>Scan 4: After remediation</strong>
-<br />
-<img width="339" alt="Scan 4 results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/a710b4b0-bf49-4189-83e2-c8fa484565a6"> <br />
 
 This project underlines the significance of vulnerability management in securing systems, whether it's preventing vulnerabilities through proactive measures or remediating them promptly. It demonstrates practical skills in setting up a lab environment, conducting scans, and implementing security improvements, all essential for maintaining a secure computing environment.
 
