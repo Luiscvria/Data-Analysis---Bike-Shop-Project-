@@ -33,16 +33,19 @@ All relevant files and data are provided within this repository.
 3: Connect SSMS to Sql Server<br/>
 4: Connect Excel data files to SSMS 
 
-<h2>Initial Steps</h2> 
-<strong>Step 1: Turn off Windows Defender on Win 10/11 VM</strong> <br/>
+<h2>Build Database - Initial Steps</h2> 
+<strong>Step 1: Connect SSMS to SQL Server & get started<br/>
 <img width="500" alt="SSMS server connect" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/e567f740-4451-43af-9ef9-3d9293e710a4">
 
-  - <b>Make sure you turn off domain profile, private profile, public profile</b> 
+  - <b>Make sure you've donwloaded sql server seperately before this step</b> 
 <br />
 
-<strong>Step 2: Install Nessus Tenable and Log in:</strong> <br/>
-<img width="1363" alt="Nessus home page" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/1f5d5d1f-05c2-44bb-aba8-aea69088c564">
-  - <b>Save this link and remember your login information! 
+<strong>Step 2: Create a Database called "Bike_Shop":</strong> <br/>
+<img width="500" alt="New Database" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/2ec1c9d6-33d3-491c-9ed6-51cf2eed2abb">
+<br />
+
+<strong>Step 3: import Excel data to SSMS:</strong> <br/>
+<img width="500" alt="Connect Excel Data " src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/1fa040a5-5f61-48dd-a8d7-3b5c647759f9">
 <br />
 
 <h2>STEP 1: Run a non-credentialed scan:</strong> </h2> 
