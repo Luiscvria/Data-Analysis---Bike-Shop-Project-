@@ -4,7 +4,7 @@
 In this project, I took on the role of a data analyst to assist Toman Bike Shop in making an informed decision about potentially increasing their prices next year. The primary objective was to analyze current trends and determine if a price increase would be feasible without negatively impacting profitability and the ongoing trend of increasing sales.
 <br />
 <br />
-This project is designed as an entry-level data analyst task, showcasing a complete end-to-end data analysis process. The analysis includes data cleaning, exploratory data analysis, trend analysis, and providing actionable insights based on the findings.
+This project is designed as a data analyst task, showcasing a complete end-to-end data analysis process. The analysis includes database creation, exploratory data analysis, trend analysis, and providing actionable insights based on the findings.
 
 All relevant files and data are provided within this repository.
 <br />
@@ -48,10 +48,28 @@ All relevant files and data are provided within this repository.
 <img width="500" alt="Connect Excel Data " src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/1fa040a5-5f61-48dd-a8d7-3b5c647759f9">
 <br />
 
-<h2>STEP 1: Run a non-credentialed scan:</strong> </h2> 
+<h2>STEP 1: Develop SQL Queries:</strong> </h2> 
 
-For this instance, we executed a scan without entering any user credentials.</br>
-<img width="1499" alt="Results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/3c9152db-b962-4af4-a403-c39b792cf3dd">
+Using the costs table, I created new columns to help with later analysis. The SQL code that created the columns is in bold below. </br>
+
+
+SELECT </br>
+dteday, </br>
+season, a.yr, </br>
+weekday, </br>
+hr, </br>
+rider_type, </br>
+riders, </br>
+price, </br>
+COGS, </br>
+<strong>riders * price AS revenue, </br>
+riders * COGS AS expenses, </br>
+riders * price-COGS AS profit</br></strong>
+FROM master_table a</br>
+LEFT JOIN cost_table b</br>
+ON a.yr = b.yr</br>
+</br>
+<img width="1000" alt="New Columns" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/f6ce7a17-86bf-4cda-aea8-cb8d31e812c2">
 <br />
 Results continued<br />
 <img width="1501" alt="More results" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/f018932c-f3b1-4d54-8b89-1aa2a2ae2cc4">
