@@ -1,7 +1,11 @@
-<h1>Vulnerability Management Lab</h1>
+<h1>Toman Bike Shop - Data Analysis Project</h1>
 
 <h2>Description</h2>
-This project consists of setting up and executing a comprehensive Vulnerability Management Lab. The lab comprises a Windows 11 Virtual Machine (VM) and Tenable's Nessus, a powerful vulnerability scanning tool. Through a series of scans, I demonstrated the effectiveness of vulnerability assessment, remediation, and confirmation. This project highlights the importance of proactively managing and securing systems in a real-world context.
+In this project, I took on the role of a data analyst to assist Toman Bike Shop in making an informed decision about potentially increasing their prices next year. The primary objective was to analyze current trends and determine if a price increase would be feasible without negatively impacting profitability and the ongoing trend of increasing sales.
+
+This project is designed as an entry-level data analyst task, showcasing a complete end-to-end data analysis process. The analysis includes data cleaning, exploratory data analysis, trend analysis, and providing actionable insights based on the findings.
+
+All relevant files and data are provided within this repository.
 <br />
 <br />
 
