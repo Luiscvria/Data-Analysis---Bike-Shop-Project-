@@ -5,7 +5,7 @@ This project consists of setting up and executing a comprehensive Vulnerability 
 <br />
 <br />
 
-<b>Estimated time to completion:</b> 30-mins  
+<b>Estimated time to completion:</b> 1-2 Hours  
 
 <h2>Overview:</h2>
 1. <strong>Build a Database:</strong> Create a well-structured database to store all relevant data for Toman Bike Shop, ensuring data integrity and efficient retrieval.<br />
@@ -15,11 +15,11 @@ This project consists of setting up and executing a comprehensive Vulnerability 
 5. <strong>Make Analysis Recommendations:</strong> Provide actionable recommendations based on the data analysis, focusing on the feasibility and potential impact of increasing prices next year.<br />
 <h2>Tools used</h2>
 
-- <b>VMware fusion, Tenable Nessus</b>
+- <b>PowerBI, Microsoft SQL Server Management Studio (SSMS), Excel</b>
 
 <h2>Environments Needed </h2>
 
-- <b>Windows 10/11 VM</b> 
+- <b>Windows 10/11 </b> 
 
 <p align="left">
 
