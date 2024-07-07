@@ -79,9 +79,13 @@ ON a.yr = b.yr</br>
 <br />
 
 <h2>Step 2: Connect PowerBI to Data:</h2>
-Imported the SQL Data <br />
+Import the SQL Data <br />
 <img width="500" alt="PowerBI Connect" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/57fd12b3-fa89-45c8-9d77-5c9b78e7a837"><br />
 <br />
+Insert SQL Server information<br />
+<img width="500" alt="PowerBI Connect" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/f833b647-1d5f-4ffd-a2e1-a3f94d6993f6"><br />
+<br />
+
 
 <h2>Step 3: Create a Dashboard + results</h2>
 Results for 2021 <br />
@@ -95,15 +99,12 @@ Results for 2022 <br />
 <br />
 
 <strong>Step 4: Analysis Recommendations: </strong> <br/>
-<img width="1603" alt="Download screen for old Mozilla browser" src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/56b4e151-b990-450d-9ef4-8d4a32a57adc">
-Old Mozilla Browser in Action:<br />
-<img width="1594" alt="Firefox download complete " src="https://github.com/Luiscvria/VulnerabilityManagementLab/assets/140449092/4d6d2c3b-47d5-439c-87d3-ec523c6ee33c">
+There was a 25% increase in price from 2021 to 2022 that led to an increase in demand by 64%. Given the strong demand during 2022, Toman should increase their prices by a conservative 10-15% to avoid hitting a price ceiling where demand starts to drop. An increase within this range would test the markets response without risking significant loss of customers. A 10% increase would be about $5.49 and a 15% increase would be $5.74. <br />
+<img width="500" alt="final analysisr" src="https://github.com/Luiscvria/Data-Analysis---Bike-Shop-Project-/assets/140449092/881a443b-9edb-44df-83ab-a9791d5b0a3a">
 
 <br />
 <br />
 <br />
 <br />
-
-This project underlines the significance of vulnerability management in securing systems, whether it's preventing vulnerabilities through proactive measures or remediating them promptly. It demonstrates practical skills in setting up a lab environment, conducting scans, and implementing security improvements, all essential for maintaining a secure computing environment.
 
 </p>
