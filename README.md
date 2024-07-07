@@ -50,9 +50,15 @@ All relevant files and data are provided within this repository.
 
 <h2>STEP 1: Develop SQL Queries:</strong> </h2> 
 
-Using the costs table, I created new columns to help with later analysis. The SQL code that created the columns is in bold below. </br>
+Using the costs table, I created new columns to help with later analysis. The SQL code that created the columns is in bold below: 
 
-
+//Common Table Expression (CTE) - used to create temporary result sets that can be referenced later, as shown below. </br>
+WITH master_table AS (</br>
+SELECT * FROM bike_share_yr_0</br>
+UNION</br>
+SELECT * FROM bike_share_yr_1)</br>
+</br>
+// Select statement that is shown in the output screenshotted below & creates new columns</br>
 SELECT </br>
 dteday, </br>
 season, a.yr, </br>
